@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.header__nav{
+    background: #282828;
+    padding: 6px 0;
+}
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-list a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header__nav-search{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    flex-direction: column;
+    gap: 38px;
+    color: white;
+    background: url(../images/headerBg.jpg) center / cover;
+}
+h1{
+    font-size: 100px;
+    font-family: "Prosto one";
+}
+.header__content a{
+    font-size: 20px;
+    color: black;
+    background: white;
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.header__content img{
+    padding-left: 6px;
+}
+.main{
+    background: #151515;
+    padding-bottom: 55px;
+}
+.part1 .container{
+    display: flex;
+    gap: 30px;
+}
+
+.part1 .container p{
+    padding-top: 130px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.part1 .container img{
+    padding-top: 30px;
+}
+.part2 .container{
+    display: flex;
+    gap: 87px;
+}
+.part2 .container p{
+    padding-top: 201px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.part2 .container img{
+    padding-top: 50px;
+}
+.part3 .container{
+    display: flex;
+    padding-top: 50px;
+    gap: 13px;
+    align-items: center;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.part3 p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 333px;
+}
+.line{
+    width: 61px;
+    height: 1px;
+}
+.paragraph1{
+    text-align: right;
+}
+.card1{
+    max-width: 255px;
+    background: white;
+    height: 312px;
+    border-radius: 5px;
+}
+.card1 h1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 15px 58px;
+}
+.card1 img{
+    padding: 0 63px;
+}
+.part4 .container{
+    display: flex;
+    margin-top: 79px;
+    justify-content: space-between;
+    padding: 0;
+}
+.part4 .container p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 62px 20px;
+}
+.part4 .container a{
+    color: white;
+    background: black;
+    font-weight: 700;
+    padding: 7px 57px;
+    margin-left: 47px;
+}
+.card2{
+    max-width: 255px;
+    background: white;
+    height: 312px;
+    border-radius: 5px;
+}
+.card2 h1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 15px 79px
+}
+.card2 img{
+    padding: 0 77px;
+}
+.card3{
+    max-width: 255px;
+    background: white;
+    height: 312px;
+    border-radius: 5px;
+}
+.card3 h1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 15px 74px
+}
+.card3 img{
+    padding: 0 76px;
+}
+.card4{
+    max-width: 255px;
+    background: white;
+    height: 312px;
+    border-radius: 5px;
+}
+.card4 h1{
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 15px 73px
+}
+.card4 img{
+    padding: 0 73px;
+}
+.footer{
+    background: #282828;
+}
+.footer .container{
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.footer a{
+    color: white;
+    font-weight: 700;
+}
+.footer__images{
+    display: flex;
+    gap: 29px;
+}
+
+
+
+
+
+
